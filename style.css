@@ -1,0 +1,317 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    color: black;
+}
+
+/* --------------navbar area-------------- */
+#navbar {
+    height: 20vh;
+    background-color: rgb(246, 252, 246);
+}
+
+#menubar {
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    height: 50%;
+}
+
+#nameAndMenu {
+    display: flex;
+    flex-direction: column;
+
+}
+
+#name {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+
+}
+
+#name h2 {
+    margin: 8px;
+    margin-left: 0;
+    font-size: 22px;
+}
+
+#mainMenu {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+
+}
+
+#share {
+    display: flex;
+    justify-items: space-evenly;
+    align-items: center;
+    gap: 40px;
+    margin-right: 50px;
+
+}
+
+#logo {
+    display: flex;
+    justify-content: left;
+    gap: 0px;
+    margin-left: 50px;
+
+}
+
+#share span {
+    font-size: 28px;
+}
+
+#disLogo {
+    padding-top: 10px;
+    font-size: 48px;
+    padding-right: 10px;
+
+}
+
+#tools {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30%;
+    width: 95vw;
+    margin: 0px auto;
+    background-color: rgb(224, 238, 227);
+    border-radius: 25px;
+    gap: 30px;
+    margin-top: 8px;
+
+
+
+}
+
+#tool1 {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    /* border-right: 1px black solid ; */
+    gap: 10px;
+
+}
+
+#tool1 span {
+    font-size: 18px;
+}
+
+#tool1 #zoom {
+    display: flex;
+    gap: 0px;
+}
+
+#tool1 div input {
+    width: 30px;
+    border: none;
+    background-color: transparent;
+
+}
+
+#tool1 div {
+    border: 1px black solid;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    appearance: textfield;
+}
+
+#tool2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border-right: 1px black solid ; */
+    gap: 10px;
+    /* padding-right: 5px; */
+}
+
+#tool2 span {
+    font-size: 18px;
+}
+
+#tool3 {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    /* border-right: 1px black solid ; */
+}
+
+#tool3 select {
+    width: 70px;
+    border: 1px black solid;
+    background-color: transparent;
+}
+
+#tool4 {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    /* border-right: 1px black solid ; */
+}
+
+#tool4 span input {
+    width: 30px;
+    border: 1px black solid;
+    background-color: transparent;
+    border-radius: 2px;
+
+}
+
+#tool5 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    /* border-right: 1px black solid ; */
+}
+
+#tool5 span {
+    font-size: 18px;
+}
+
+#tool6 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    /* border-right: 1px black solid ; */
+}
+
+#tool6 span {
+    font-size: 18px;
+}
+
+#tool6 div span {
+    font-weight: bolder;
+
+}
+
+#tool6 div {
+    border-bottom: 1px black solid;
+
+}
+
+#tool7 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    /* border-right: 1px black solid ; */
+}
+
+#tool7 div span {
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+#tool7 div {
+    border-bottom: 1px black solid;
+}
+
+#tool8 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    /* border-right: 1px black solid ; */
+}
+
+#tool8 span {
+    font-size: 18px;
+}
+
+#tool8 div span {
+    font-weight: bolder;
+
+}
+
+#tool8 div {
+    border-bottom: 1px black solid;
+}
+
+/* -------------function area------------- */
+#function{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5vh;
+    
+}
+#fx{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 10px;
+    width: 100vw;
+
+}
+#function #fx span{
+    color: rgb(124, 124, 124);
+    font-size: 22px;
+    font-weight: lighter;
+    margin-left: 15px;
+}
+#fx input{
+width: 89vw;
+border: none;
+}
+
+#name_box{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-right: 5px;
+    padding-left: 10px;
+    border-right: 1px black solid;
+}
+#name_box input{
+    border: none;
+    width: 45px;
+  
+}
+#name_box span{
+    font-weight: bolder;
+
+}
+
+/* -------------sheet area----------- */
+#sheet{
+    height: 70vh;
+    width: 100vw;
+    /* background-color: aqua; */
+}
+
+
+/* -------------bottom bar area----------- */
+#bottom_bar{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-left: 50px;
+    margin-top: 3px;
+    gap: 15px;
+    background-color: rgb(246, 252, 246);
+
+}
+#bottom_bar span{
+    font-size: 18px;
+    font-weight: bolder;
+}
+#bottom_bar #sheet_no{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
