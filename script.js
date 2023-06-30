@@ -29,9 +29,21 @@ for (let n = 1; n <= 100; n++) {
         var temp = document.createElement('div');
         temp.classList.add('sheetCells');
         temp.setAttribute('id', `${alpha}${n}`);
-        temp.setAttribute('contenteditable', 'true');
+        temp.setAttribute('contenteditable', 'false');
         // temp.innerHTML = alpha + n;
         temprow.appendChild(temp);
     }
     sheetBox.appendChild(temprow);
 }
+const sheetCell = document.querySelectorAll('.sheetCells');
+sheetCell.forEach(item => {
+    item.addEventListener('mouseover', event => {
+        item.setAttribute('contenteditable', 'true');
+    })
+})
+sheetCell.forEach(item => {
+    item.addEventListener('mouseout', event => {
+        item.setAttribute('contenteditable', 'false');
+    })
+})
+
